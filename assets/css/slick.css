@@ -117,3 +117,15 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.rs-service__item .rs-icon {
+    width: 80px; /* Current small size ko increase karne ke liye */
+    height: 80px; /* Same size for circular look */
+    margin: 0 auto 15px; /* Center alignment and spacing */
+}
+
+/* Aur uske andar ki image ko bhi 100% width do */
+.rs-service__item .rs-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Image fit ho jaye container mein */
+}
